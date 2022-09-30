@@ -1,0 +1,1172 @@
+/* @media only screen and (min-width: 768px) and (max-width: 1190px) {
+    .further-benefits {
+        width: auto;
+    }
+}*/
+
+@media (max-width: 1190px) {
+    .braces {
+        width: 100%;
+        max-width: 860px;
+    }
+    .txtl {
+        font-size: 24px;
+    }
+    .head-contact .contact-pc p {
+        font-size: 12px;
+        letter-spacing: initial;
+    }    
+    .head-inner {
+        padding: 0 10px;
+    }   
+    .sub-title p {
+        font-size: 12px;
+        letter-spacing: initial;
+    }
+    .head-left .sub-title {
+        top: 36px;
+    }
+    /*----- section-1 -----*/
+    .key-visual {
+        padding: 100px 0;
+    }
+    .sec1-title .txtm {
+        font-size: 16px;
+    }
+    .sec1-title p {
+        margin-bottom: 18px;
+    }
+    /*----- section-2 -----*/
+    .sec2-in .txtm {
+        font-size: 16px;
+    }   
+    p.s2-span span {
+        font-size: 14px;
+    }
+    .sec2-in .contact-pc {
+        margin: 10px 80px;
+    }
+    .sec2-in .contact-pc .txtl {
+        font-size: 18px;
+        letter-spacing: 1.5px;
+    }
+    .texts {
+        font-size: 18px;
+        padding-top: 20px;
+    }
+    .sec2-in p {
+        letter-spacing: initial;
+    }
+    .texts p + p {
+        padding-top: 20px;
+    }
+    /*----- section-3 -----*/
+    .sec3-key .braces .txtl {
+        font-size: 24px;
+    }
+    .sec3-key .txtm {
+        font-size: 16px;
+    }
+    /*----- section-4 -----*/
+    .sec4-in .txtm {
+        font-size: 16px;
+    }
+    /*----- section-5 -----*/
+    .sc5txin {
+        padding-bottom: 20px;
+    }
+    .sec5-txt .txtm {
+        font-size: 16px;
+    }
+    .sec5-cont {
+        width: auto;
+        padding: 0 185px;
+    }
+    .step {
+        float: unset;
+        width: 60%;
+        margin: 0 auto 20px;
+    }
+    .step h4 {
+        font-size: 14px;
+        padding: 0;
+    }
+    .step h4 + p {
+        font-size: 12px;
+    }
+    .step p {
+        font-size: 14px;
+        font-weight: 600;
+    }    
+    .step + .step {
+        margin-left: auto;
+    }
+    
+    .bottom .txtm {
+        font-size: 16px;
+    }
+    .learning-title span {
+        font-size: 14px;
+    }
+    .learning-title .txtm {
+        font-size: 16px;
+    }
+    /*----- section-6 -----*/
+    p.sec6-bottom {
+        font-size: 14px;
+    }
+    /*----- section-7 -----*/
+    .sec7-bac {
+        padding: 30px 50px;
+    }
+    .sec7-bac .txtm {
+        font-size: 16px;
+    }    
+    .school {
+        width: auto;
+        max-width: 1170px;
+    }
+    .school-img1 {
+        background: url(imeges/learnfromfreelancer.jpg) no-repeat left / contain;
+    }    
+    .school-img2 {
+        background: url(imeges/learnfromprojects.jpg) no-repeat left / contain;
+    }    
+    .school-img3 {
+        background: url(imeges/actuallyfree.jpg) no-repeat left / contain;
+    }
+    .sclool-rap {
+        padding: 0 20px;
+    }
+    .sclool-rap p {
+        font-size: 14px;
+    }   
+    .sec7-txtbl {
+        width: auto;
+        max-width: 1170px;
+        padding: 40px 20px 50px;
+        margin: 45px 20px;
+    }
+    .sec7-txt h3 {
+        margin-bottom: 12px;
+    }
+    .sec7-txts p {
+        font-size: 14px;
+        margin: 0;
+        line-height: 1.6;
+    }
+    .sec7-btm p {
+        font-size: 12px;
+        letter-spacing: 0;
+    }
+    /*----- section-8 -----*/
+    .founding-key {
+        box-sizing: border-box;
+        padding: 40px 35px;
+    }
+    .founding-member h2 {
+        margin: 50px 0 30px;
+    }
+    .sec8-title p {
+        letter-spacing: 0;
+    }
+    .teacherbox {
+        width: 100%;
+    }
+    .founding-img {
+        width: calc(100% / 3);
+        padding: 0 15px;
+        margin: 0;
+    }
+    .founding-txt p {
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+
+    /*----- section-9 -----*/
+    .make-money-freely .about p {
+        font-size: 20px;
+    }
+    .freely {
+        padding: 0 20px;
+    }
+    .freely .display {
+        display: block;
+    }
+    .freely .braces .txtl {
+        font-size: 18px;
+    }
+    .freely .braces {
+        padding: 0;
+    }
+    .corporate {
+        padding: 40px 0 55px;
+    }
+    .sec9-subtitle h2 {
+        margin-bottom: 12px;
+    }
+    .sec9-subtitle h2 + p {
+        font-size: 14px;
+    }   
+    .sec9-subtitle p + p {
+        font-size: 12px;
+        letter-spacing: 0;
+    }
+    .sec9-entre {
+        width: auto;
+    } 
+    .entrepreneur {
+        margin-left: 0;
+        width: calc(70% - 30px);
+    }
+    /*----- section-10 -----*/
+
+    .sec10-main {
+        width: 100%;
+        padding: 40px 80px;
+    }    
+    .sec10-top p {
+        font-size: 14px;
+    }
+    .task-titl .txtm {
+        font-size: 16px;
+    }
+    .task ul li:first-of-type {
+        padding: 20px 10px 10px;
+    }
+    .task ul li {
+        font-size: 14px;
+        padding: 10px;
+    }
+    .secf-txt p {
+        line-height: 26px;
+    }
+/*-------- section-11 --------*/
+    .section-11 {
+        padding: 20px 40px;
+    }
+    .fa-laptop:before {
+        font-size: 20px;
+        font-style: initial;
+        margin-right: -8px;
+    }
+    .flow-img {
+        width: 100%;
+    }
+    .connection {
+        width: 64%;
+        margin: auto;
+    }
+    /* .preworks {
+        margin-bottom: 50px;
+    }   */
+    .flow-right .flow-ts {
+        overflow: hidden;
+        font-size: 12px;
+        font-weight: 500 !important;
+        letter-spacing: 0;
+    }
+    .flow-left h3 {
+        line-height: 1.6;
+        font-size: 18px;
+    }
+    .later-flow p {
+        font-size: 14px;
+    }
+    .jobsupport + .test p {
+        font-size: 14px;
+    }
+/*-------- questions --------*/
+    .questions {
+        padding: 40px;
+    }
+    .questions h2 {
+        font-size: 24px;
+    }
+    .fa-circle-question::before {
+        font-size: 15px;
+    }
+    .question-panel {
+        margin-bottom: 5px;
+    }
+    .panel-titl a {
+        font-size: 16px;
+    }
+    .panel-text p {
+        font-size: 14px;
+    }
+
+    .section-16 {
+        padding: 60px 15% 50px;
+    }
+
+}
+
+@media (max-width: 991px) {
+    /*-------- section-7 --------*/
+    .school-key {
+        width: 100%;
+        float: initial;
+        margin-bottom: 20px;
+    }
+    .school-img1, .school-img2, .school-img3 {
+        margin: 0 auto;
+        width: 300px;
+    }
+    .sclool-rap {
+        text-align: center;
+    }
+    .sclool-rap h3, .sclool-rap p {
+        margin: 8px 0;
+    }
+    .sclool-rap p {
+        text-align: left;
+        padding: 0 10px;
+    }
+    /*-------- section-8 --------*/
+    .founding-key {
+        padding: 50px;
+    }
+    .founding-member h2 {
+        margin: 40px 0 30px;
+    }
+    .founding-img {
+        width: 100%;
+    }
+    .member-ou {
+        min-height: auto;
+    }
+    /*-------- section-9 --------*/
+    .entrepreneur {
+        width: calc(100% - 40px);
+        margin: 0 auto;
+        padding: 20px 0;
+    }
+    img {
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
+        vertical-align: middle;
+    }
+    .entrin {
+        width: calc(100% / 1.5);
+    }
+    /*-------- section-10 --------*/
+    .sec10-main {
+        width: auto;
+        max-width: 780px;
+        padding: 30px 10%;
+        margin: 0 auto;
+    }
+    .task {
+        width: 100%;
+        padding: 0;
+        margin-top: 15px;
+    } 
+    /*-------- section-13 --------*/
+    .participation-benefits {
+        padding: 0 40px;
+    }
+    .really-0-yen {
+        transform: translatey(43px);
+    }
+    .really-0-yen h3 {
+        letter-spacing: 1.8px;
+    }
+    .further-benefits {
+        padding: 22px 40px 50px;
+    }
+    .benefits-enclose {
+        flex-direction: column;
+        align-items: center;
+    }
+    .benefits-frame {
+        padding-top: 25px;
+    }
+    .really-0-yen h3 {
+        letter-spacing: 1.8px;
+    }
+  
+/*-------- section-15 --------*/
+    .message-img {
+        width: 100%;
+        float: none;
+        padding: 20px;
+    }    
+    .message-img img {
+        width: 100%;
+        /* padding: 0; */
+    }    
+    .message {
+        width: 100%;
+        max-width: fit-content;
+        padding: 0 5px;
+        margin: 40px auto;
+    }    
+    .message-txt {
+        width: 100%;
+        padding: 20px;
+    }
+
+}
+
+
+@media (min-width: 992px) {
+    .participation-benefits {
+        padding: 0 40px;
+    }
+    .further-benefits {
+        max-width: 970px;
+    }
+    .benefits-frame {
+        width: calc(100% / 3);
+    }
+    .benefits {
+        width: auto;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .further-benefits {
+        width: 1170px;
+    }
+    .freely .display {
+        display: block;
+    }
+}
+
+
+@media (min-width: 769px) {
+    .flow-right {
+        display: block !important;
+    }
+}
+
+
+@media (max-width: 768px) {
+  
+    .textl {
+        font-size: 18px;
+    }
+  
+    .texts {
+        font-size: 12px;
+    }
+  
+    .texts {
+        font-size: 15px;
+    }
+  
+    br.display {
+        display: block;
+    }
+  
+    .braces {
+        width: calc(100% - 40px);
+        padding: 10px 0;
+    }
+  
+    .braces::before, .braces::after {
+        width: 25px;
+        height: 25px;
+    }
+  
+    .about {
+        width: 60px;
+        height: 60px;
+        transform: translateY(-30px);
+    }
+  
+    .about p {
+        font-size: 12px;
+        line-height: 60px;
+    }
+
+    .contact-pc {
+        display: none;
+    }
+  
+    .contact-sp .display {
+        color: #fff;
+        font-size: 12px;
+        text-decoration: none;
+        background-color: #da6b64;
+        display: block;
+        padding: 9px 11px;
+    }
+  
+    header {
+        height: 61px;
+    }
+  
+    .head-left .logo {
+        top: 24px;
+    }
+  
+    .head-left .logo img {
+        width: 90px;
+    }
+  
+    .head-left .sub-title {
+        left: 0;
+        top: 8px;
+    }
+  
+    .sub-title p {
+        font-size: 10px;
+    }
+  
+    .contact-sp {
+        position: absolute;
+        text-align: center;
+        right: 0;
+    }
+  
+    .contact-sp img {
+        width: 20px;
+        display: block;
+        margin: auto;
+    }
+  
+    .section-1 {
+        padding-top: 60px;
+    }
+  
+    .key-visual {
+        background: url(imeges/mainsp.jpg) no-repeat center / cover;
+        padding: 10px 0;
+    }
+  
+    .sec1-title {
+        padding-top: 10px;
+    }
+  
+    .sec1-text p {
+        margin-bottom: 6px;
+        line-height: 1.5;
+    }
+  
+    .sec1-title .logo {
+        margin: 24px auto 20px;
+    }
+  
+    .sec1-txt p {
+        font-size: 15px;
+        letter-spacing: inherit;
+    }
+
+    .sec2-in .contact-pc .txtl {
+        font-size: 20px;
+        letter-spacing: normal;
+    }
+  
+    .sec2-in {
+        padding: 15px 0 70px;
+    }
+  
+    .sec2-in .txtm {
+        font-size: 15px;
+        letter-spacing: 1.5px;
+        line-height: 1.5;
+    }
+  
+    .s2-span span {
+        padding: 3px 0;
+    }
+  
+    .sec2-in .contact-pc {
+        margin: 20px;
+    }
+  
+    .sec2-in .contact-pc p {
+        padding: 20px 120px;
+    }
+  
+    .contact-pc p {
+        border-radius: 55px;
+    }
+  
+    .sec2-in .texts {
+        padding-top: 10px;
+    }
+  
+    .contents {
+        padding: 25px 0;
+    }
+  
+    .contents p {
+        line-height: 1.6;
+        letter-spacing: 0px;
+    }
+  
+    .contents div p:first-of-type {
+        margin-bottom: 0;
+    }
+  
+    .contents p {
+        margin-bottom: 30px;
+    }
+
+    .sec3-key {
+        background: url(imeges/introbottom.jpg) no-repeat bottom / contain;
+        background-color: #fff;
+        padding: 30px 0;
+    }
+  
+    .sec3-key .braces .txtl {
+        font-size: 18px;
+    }
+  
+    .sec3-key .txtm {
+        font-size: 15px;
+    }
+  
+    .abouttitle {
+        margin-top: 15px;
+        line-height: 1.6;
+    }
+
+    .section-4 {
+        padding-bottom: 40px;
+    }
+  
+    .sec4-in .txtm {
+        font-size: 15px;
+    }
+  
+    .aboutbox {
+        padding: 10px;
+    }
+  
+    .ab-con-in h3 {
+        line-height: 1.6;
+    }
+  
+    .box {
+        padding: 5px;
+    }
+  
+    .box img {
+        height: 30px;
+    }
+  
+    .box p {
+        font-size: 10px;
+        margin: 4px 0 10px;
+        line-height: 1.6;
+    }   
+    
+    .sec5-key {
+        background: url(imeges/aboutsecondbgsp.jpg) no-repeat center / cover;
+        padding: 30px 0;
+    }
+  
+    .sec5-txt p:first-child {
+        line-height: 1.2;
+    }
+  
+    .sec5-txt .txtm {
+        font-size: 12px;
+        letter-spacing: 1px;
+        line-height: 1.7;
+    }
+  
+    .sec5-cont {
+        padding: 0 30px;
+    }
+  
+    .step {
+        width: 100%;
+        padding: 15px 51px;
+    }
+  
+    .step h4 {
+        width: 100%;
+        font-size: 12px;
+        font-weight: 600;
+        padding: 1px;
+        margin: 0 auto;
+    }
+  
+    .step h4 + p {
+        margin: 15px 0 6px;
+        letter-spacing: 0px;
+    }
+  
+    .step p {
+        font-size: 12px;
+    }
+  
+    .step p:last-of-type {
+        line-height: 1.6;
+        margin: 0;
+    }
+  
+    .bottom {
+        padding: 20px 0;
+    }
+  
+    .bottom .txtm {
+        font-size: 12px;
+    }
+  
+    .secf-txt p {
+        line-height: 19px;
+        font-weight: 500;
+    }
+
+    .sec6-bac {
+        overflow: hidden;
+        padding: 30px 0 20px;
+    }
+  
+    .learning-title span {
+        font-size: 12px;
+    }
+  
+    .learning-title .txtm {
+        font-size: 15px;
+    }
+  
+    .learning {
+        width: 25%;
+        padding: 5px;    
+    }
+  
+    .learning-img {
+        width: 870px;
+        max-width: calc(100% - 40px);
+        margin: 12px 15px 0;
+        padding: 0 50px;
+        /* margin: 12px auto 0; */
+    }
+  
+    .learning img {
+        width: 100%;
+        max-width: 120px;
+    }
+  
+    p.sec6-bottom {
+        margin-top: 10px;
+    }
+  
+    /*------- section-7 -------*/
+    .sec7-bac {
+        padding: 30px 0px;
+    }
+  
+    .school {
+        margin: 20px auto;
+    }
+  
+    .sec7-bac .txtm {
+        font-size: 15px;
+    }
+  
+    .sclool-rap p {
+        font-size: 12px;
+    }
+  
+    .school-img1, .school-img2, .school-img3 {
+        width: 100%;
+        height: 120px;
+        margin: auto;
+    }
+  
+    .school-key {
+        width: auto;
+        float: initial;
+        margin: 0 auto;
+    }
+  
+    .school-img1 {
+        background: url(imeges/learnfromfreelancer.jpg) no-repeat left / cover;
+    }
+  
+    .school-img2 {
+        background: url(imeges/learnfromprojects.jpg) no-repeat left / cover;
+    }
+  
+    .school-img3 {
+        background: url(imeges/learnfromprojects.jpg) no-repeat left / cover;
+    }
+  
+    .sclool-rap {
+        text-align: center;
+    }
+  
+    .sclool-rap h3 {
+        margin: 12px 0;
+    }
+  
+    .sclool-rap p {
+        text-align: left;
+        margin-bottom: 30px;
+    }
+  
+    .sec7-txtbl {
+        width: auto;
+        padding: 10px;
+        margin: 20px;
+    }
+  
+    .sec7-txt p:not(.sec7-txt h3 + p) {
+        font-size: 10px;
+    }
+  
+    .sec7-txts {
+        margin-bottom: 20px;
+    }
+  
+    .sec7-txts p:first-of-type {
+        margin: 0;
+    }
+  
+    /*------- section-8 -------*/
+    .founding-key {
+        background: url(imeges/teacherbgsp.jpg)no-repeat center / cover;
+        padding: 40px 0 20px;
+    }
+  
+    .founding-img {
+        width: 100%;
+        float: initial;
+        margin: 0 auto;
+    }
+  
+    .teacherbox {
+        width: auto;
+    }
+  
+    .founding-member p {
+        font-size: 14px;
+    }
+  
+    .founding-img img {
+        width: 120px;
+    }
+  
+    .founding-member h3 {
+        font-size: 14px;
+    }
+  
+    .member-ou {
+        padding: 40px 15px 10px;
+        border: 3px solid #fff;
+        min-height: auto;
+    }
+  
+    .founding-txt p {
+        letter-spacing: 1.3px;
+    }
+  
+    .founding-img {
+        padding: 0 10px;
+    }
+  
+    /*------- section-9 -------*/
+    .make-money-freely {
+        padding: 20px 0;
+    }
+  
+    .make-money-freely .about p {
+        font-size: 12px;
+    }
+  
+    .freely .braces {
+        width: 100%;
+    }
+  
+    .freely .braces .txtl {
+        font-size: 14px;
+    }
+  
+    .make-money-freely::after {
+        border: 15px solid transparent;
+        border-top: 15px solid #ebb94d;
+    }
+  
+    .corporate {
+        padding: 20px 0 35px;
+    }
+  
+    .sec9-subtitle h2 {
+        margin-bottom: 10px;
+    }
+  
+    .sec9-subtitle h2 + p {
+        font-size: 12px;
+    }
+  
+    .sec9-subtitle p + p {
+        font-size: 12px;
+    }
+  
+    .sec9-entre {
+        width: auto;
+    }
+  
+    .entrepreneur {
+        margin-left: 20px;
+        width: calc(100% - 40px);
+    }
+  
+    .sec9-img {
+        margin-right: 0;
+    }
+  
+    .entrin {
+        margin-top: 0;
+    }
+  
+    /*------- section-10 -------*/
+    .study-contents {
+        padding: 20px 0 35px;
+        background: url(imeges/classbgsp.jpg)no-repeat center / cover;
+    }
+  
+    .sec10-top h2 {
+        margin: 20px 0;
+    }
+  
+    .sec10-top p {
+        font-size: 12px;
+    }
+  
+    .sec10-main {
+        width: auto;
+        padding: 5px 10px;
+    }
+  
+    .task {
+        float: initial;
+        width: 100%;
+        padding: 0;
+    }
+  
+    .task-titl .txtm {
+        font-size: 15px;
+    }
+  
+    .task-titl {
+        margin-bottom: 0;
+    }
+  
+    .task ul li {
+        font-size: 12px;
+    }
+  
+    .secf-txt p {
+        line-height: 22px;
+        letter-spacing: 0.8px;
+        font-weight: 600;
+    }
+
+    .flow-img {
+        display: none;
+    }
+  
+    .flow-right {
+        display: none;
+    }
+  
+    .displayBlock {
+        display: block;
+    }
+  
+    .flow-left img {
+        width: 35px;
+        height: 35px;
+        margin-right: 10px;
+        vertical-align: middle;
+    }
+  
+    .flow-left {
+        position: relative;
+        width: 100%;
+        padding: 10px 0;
+        float: none;
+        text-align: left;
+    }
+  
+    .flow-left br {
+        display: none;
+    }
+  
+    .flow-left h3 {
+        display: inline-block;
+        font-size: 16px;
+        text-align: left;
+        margin: 0;
+        padding-top: 4px;
+    }
+  
+    .preworks {
+        margin: 0;
+    }
+  
+    .connection img {
+        display: none;
+    }
+  
+    .flowbox {
+        padding: 0 15px;
+        margin-bottom: 4px;
+    }
+  
+    /* open(>下) */
+    .open::after {
+        position: absolute;
+        display: inline-block;
+        content: "";
+        width: 7px;
+        height: 7px;
+        border-bottom: 4px solid;
+        border-left: 4px solid;
+        top: 23px;
+        right: 0;
+        transform: rotate(-45deg);
+    }
+  
+    /* close(>上) */
+    .collapsed::after {
+        position: absolute;
+        display: inline-block;
+        content: "";
+        width: 7px;
+        height: 7px;
+        border-bottom: 4px solid;
+        border-left: 4px solid;
+        top: 23px;
+        right: 0;
+        transform: rotate(135deg);
+    }
+  
+    /*------- section-12 -------*/
+    .section-12 {
+        background: url(imeges/bangkokbgsp.jpg) no-repeat center / cover;
+        padding: 20px;
+    }
+  
+    .why-bangkok {
+        margin-left: 15px;
+    }
+  
+    .why-bangkok h2 {
+        text-align: center;
+    }
+  
+    .why-bangkok p:first-of-type {
+        font-size: 12px;
+    }
+  
+    .why-bangkok ul li {
+        font-size: 12px;
+    }
+  
+    .why-bangkok p:last-of-type {
+        font-size: 15px;
+    }
+
+    .txtl {
+        font-size: 18px;
+    }
+  
+    .sec10-top p {
+        font-size: 12px;
+    }
+
+    /*------- section-13 -------*/
+    .section-13 {
+        padding: 25px 0 20px;
+    }
+  
+    .specialpc {
+        display: none;
+    }
+  
+    .specialsp {
+        display: block;
+    }
+  
+    .section-13 > h2 {
+        margin-bottom: 25px;
+    }
+  
+    .fa-gift:before {
+        font-size: 16px;
+        margin-right: -6px;
+    }
+  
+    .permanent-support br {
+        display: block;
+    }
+  
+    .participation-benefits {
+        padding: 0 15px;
+        margin-top: 10px;
+    }
+  
+    .really-0-yen {
+        width: 32%;
+        transform: translatey(36px);
+    }
+  
+    .really-0-yen h3 {
+        font-size: 18px;
+    }
+  
+    .further-benefits-sp {
+        padding: 30px;
+        margin: 0 auto;
+        border: 2px solid #fff;
+    }
+  
+    .benefits-enclose-sp {
+        overflow: hidden;
+        margin: 15px 0;
+    }
+  
+    .specialleft h2, .specialrigth p {
+        font-size: 12px;
+    }
+  
+    .specialleft h2 {
+        text-align: center;
+        line-height: 50px;
+        color: #f7c23b;
+        width: 60px;
+        height: 60px;
+        padding: 5px;
+        margin: 0 auto;
+        background: #fff;
+        border-radius: 50%;
+    }
+  
+    .specialleft {
+        float: left;
+        width: 30%;
+    }
+  
+    .specialrigth p {
+        text-align: left;
+        color: #fff;
+        transform: translatey(10px);
+        margin: 0;
+    }
+
+    .section-16 {
+        padding: 60px 15px 50px;
+    }
+
+    /*------- questions -------*/
+    .questions {
+        padding: 40px 20px;
+    }
+    .panel-titl {
+        padding: 8px;
+    }
+
+}
