@@ -1,0 +1,990 @@
+body {
+    background-color: aliceblue;
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", FontAwesome, Meiryo, Osaka, "�l�r �o�S�V�b�N", "MS PGothic", sans-serif;
+}
+* {
+    color: #333;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+body {
+    letter-spacing: 1.5px;
+}
+.display {
+    display: none;
+}
+
+.txtl {font-size: 28px;}
+.txtm {font-size: 20px;}
+.txts {font-size: 14px;}
+
+p {
+    margin-bottom: 10px;
+}
+img {max-width: 100%;}
+span {
+    color: #ebb94d;
+}
+
+/*--- 鉤括弧 ---*/
+.braces {
+    display: inline-block;
+    position: relative;
+    font-weight: 600;
+    width: 860px;
+    padding: 15px 0;
+}
+.title {
+    margin: 20px 0 10px;
+    line-height: 40px;
+}
+.braces::before, .braces::after {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 50px;
+}
+.braces::before {
+    top: 0;
+    left: 0;
+    border-top: 4px solid #ebb94d;
+    border-left: 4px solid #ebb94d;
+}
+.braces::after {
+    right: 0;
+    bottom: 0;
+    border-right: 4px solid #ebb94d;
+    border-bottom: 4px solid #ebb94d;
+}
+/* ここまで(鉤括弧) */
+
+/* about */
+.about {
+    width: 80px;
+    height: 80px;
+    background-color: #ebb94d;
+    border-radius: 50px;
+    margin: 0 auto;
+    transform: translateY(-40px);
+}
+.about p {
+    color: #fff;
+    font-size: 14px;
+    line-height: 80px;   
+}
+/* ここまで(about) */
+
+/*---------- header ----------*/
+header {
+    width: 100%;
+    height: 75px;
+    text-align: right;
+    background-color: #fff;
+    position: fixed;
+    z-index: 2;
+}
+.head-inner {
+    max-width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+}
+.head-left {
+    height: 100%;
+    position: absolute;
+}
+.head-left .logo {
+    position: absolute;
+    top: 14px;
+}
+.head-left .logo img {
+    width: 128px;
+}
+.sub-title p {
+    font-size: 14px;
+    font-weight: 600;
+}
+.head-left .sub-title {
+    position: relative;
+    top: 34px;
+    left: 134px;
+}
+.contact-pc {
+    display: inline-block;
+    position: relative;
+    top: 16px;
+    font-size: 14px;
+}
+.contact-pc p {
+    color: #fff;
+    line-height: 1.5;
+    background-color: #da6b64;
+    border-radius: 50px;
+    padding: 11px 40px;
+}
+/*---------- main ----------*/
+main {
+    text-align: center;
+}
+
+/*------- section-1 -------*/
+.section-1 {
+    padding-top: 75px;
+}
+.key-visual {
+    background: url(imeges/main-1.jpg) no-repeat center / cover;
+    padding: 90px 0;
+}
+.sec1-title p {
+    font-weight: 600;
+    line-height: 1.6;
+}
+.sec1-title .logo {
+    width: 317px;
+    padding-bottom: 20px;
+    margin: 0 auto 20px;
+}
+.sec1-title p:last-child {
+    line-height: 1.1;
+}
+/*------- section-2 -------*/
+.sec2-in {
+    background-color: #ebb94d;
+    padding: 30px 0 80px;
+}
+.sec2-in p {
+    color: #fff;
+    font-weight: 600;
+}
+.sec2-in .txtm {
+    line-height: 32px;
+}
+.s2-span span {
+    color: #c7254e;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: initial;   
+    background-color: #f9f2f4;
+    border-radius: 3px;
+    padding: 2px 0;
+}
+.texts {
+    font-size: 21px;
+    padding-top: 30px;
+}
+.texts p + p {
+    padding-top: 35px;
+}
+.sec2-in .contact-pc p {
+    padding: 30px 120px;
+}
+.sec2-in .contact-pc {
+    cursor: pointer;
+    display: block;
+    max-width: 1028px;
+    margin: 45px auto;
+    top: 0;
+}
+
+/*------- section-3 -------*/
+.sec3-key {
+    background: url(imeges/introbottom.jpg) no-repeat center / cover;
+}
+.sec3-key {
+    padding: 40px 0;
+}
+.contents {
+    padding: 40px 0;
+}
+.contents p {
+    line-height: 1.1;
+}
+.contents div {
+    margin-bottom: 30px;
+}
+.earn span {
+    color: #333;
+    font-weight: 600;
+}
+.contents span {
+    background: linear-gradient(transparent 70%, #ebb94d 70%);
+}
+
+/*------- section-4 -------*/
+.section-4 {
+    background-color: #FDF5E0;
+    padding-bottom: 30px;
+}
+.abouttitle {
+    font-weight: 600;
+    margin-top: 40px;
+}
+.aboutbox {
+    width: 1170px;
+    max-width: calc(100% - 40px);
+    background-color: #fff;
+    border: 2px solid #ebb94d;
+    border-radius: 5px;
+    padding: 30px;
+    margin: 30px auto;
+}
+.ab-con-in .txtm {
+    margin-bottom: 10px;
+}
+.box {
+    display: inline-block;
+    padding: 10px;
+}
+.box p {
+    vertical-align: bottom;
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+/*------- section-5 -------*/
+.sec5-key {
+    background: url(imeges/aboutsecondbg.jpg) no-repeat center / cover;
+    padding: 40px 0;
+}
+.sec5-txt p {
+    color: #fff;
+    font-weight: 600;
+}
+.sec5-txt p:first-child {
+    margin: 20px 0;
+}
+.sec5-txt p span {
+    color: #ebb94d;
+}
+.sec5-cont {
+    overflow: hidden;
+    width: 1170px;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+.step {
+    background-color: #fff;
+    border-radius: 5px;
+    float: left;
+    width: 375px;
+    padding: 30px;
+}
+.step + .step {
+    margin-left: 16px;
+}
+.step h4 {
+    width: 100%;
+    padding: 5px 0;
+    color: #fff;
+    font-weight: 500;
+    background-color: #ebb94d;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.step p {
+    color: #000;
+}
+.step h4 + p {
+    margin: 30px 0 15px
+}
+.bottom {
+    background-color: #036EA9;
+    padding: 40px 0;
+}
+.secf-txt p {
+    color: #fff;
+    font-weight: 600;
+    line-height: 32px;
+    margin: 0;
+}
+.secf-txt p span {
+    color: #ebb94d;
+}
+/*------- section-6 -------*/
+.sec6-bac {
+    background-color: #fff;
+    padding: 50px 0;
+}
+.learning-title span {
+    color: #000;
+    font-size: 16px;
+}
+.learning {
+    float: left;
+    padding: 20px;
+}
+.learning-img {
+    overflow: hidden;
+    width: fit-content;
+    margin: 40px auto 0;
+}
+.learning img {
+    max-width: 180px;
+}
+.learning-title h2 {
+    padding: 10px 0 40px;
+}
+p.sec6-bottom {
+    margin-top: 25px;
+}
+/*------- section-7 -------*/
+.sec7-bac {
+    background-color: #fdf5e0;
+    padding: 40px 0;
+}
+.school {
+    overflow: hidden;
+    width: 1170px;
+    margin: 40px auto;
+}
+.school-key {
+    float: left;
+    width: calc(100% / 3);
+    padding: 0 15px;
+}
+.sclool-rap {
+    text-align: left;
+}
+.sclool-rap h3 {
+    margin: 15px 0;
+}
+
+.school-img1 {
+    width: 360px;
+    height: 180px;
+    background: url(imeges/learnfromfreelancer.jpg) no-repeat center / cover;
+}
+.school-img2 {
+    width: 360px;
+    height: 180px;
+    background: url(imeges/learnfromprojects.jpg) no-repeat center / cover;
+}
+.school-img3 {
+    width: 360px;
+    height: 180px;
+    background: url(imeges/actuallyfree.jpg) no-repeat center / cover;
+}
+.sec7-txtbl {
+    border: 2px solid #ebb94d;
+    border-radius: 5px;
+    background-color: #fff;
+    width: 1170px;
+    margin: 45px auto;
+    padding: 40px 20px;
+}
+.sec7-btm p {
+    font-size: 14px;
+}
+.sec7-txt {
+    font-weight: 600;
+}
+.sec7-txt h3 {
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+.sec7-txt p + p {
+    margin-bottom: 0;
+}
+/*------- section-8 -------*/
+.fa-id-card {
+    font-style: normal;
+    margin-right: -10px;
+    color: #fff;
+}
+.founding-member p, .founding-member h2, .founding-member h3 {
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.founding-member h2 {
+    margin: 50px 0 10px;
+}
+.founding-member h3 {
+    margin-bottom: 10px;
+}
+.founding-key {
+    background: url(imeges/teacherbg.jpg)no-repeat center / cover;
+    padding: 40px 0;
+}
+.teacherbox {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.founding-img {
+    width: 370px;
+    float: left;
+    margin: 0 15px;
+}
+.founding-img img {
+    border-radius: 50%;
+    transform: translateY(38px);
+}
+.member-ou {
+    min-height: 390px;
+    border: 4px solid #fff;
+    padding: 40px;
+}
+.founding-txt p {
+    text-align: left;
+}
+.founding-txt p + p {
+    padding-top: 20px;
+}
+
+/*------- section-9 -------*/
+.make-money-freely {
+    position: relative;
+    background-color: #EBB94D;
+    padding: 40px 0;
+}
+.make-money-freely .about {
+    background-color: #fff;
+}
+.make-money-freely .about p {
+    color: #ebb94d;
+}
+.make-money-freely .about {
+    transform: translateY(0px);
+}
+.freely .braces h2 {
+    color: #fff;
+}
+.freely .braces::before {
+    border-top: 4px solid #fff;
+    border-left: 4px solid #fff;
+}
+.freely .braces::after {
+    border-right: 4px solid #fff;
+    border-bottom: 4px solid #fff;
+}
+/*--- ▼ ---*/
+.make-money-freely::after {
+    content: "";
+    border: 25px solid transparent;
+    border-top: 25px solid #ebb94d;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -25px;
+}
+/*--- ▼(ここまで) ---*/
+.corporate {
+    background-color: #fff;
+    padding: 50px 0 60px;
+}
+.sec9-subtitle h2 {
+    margin-bottom: 25px;
+}
+.sec9-subtitle h2 + p {
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+.sec9-subtitle p + p {
+    font-size: 14px;
+}
+.sec9-entre {
+    width: 1170px;
+    margin: 0 auto;
+}
+.entrepreneur {
+    overflow: hidden;
+    width: 780px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.sec9-img {
+    width: calc(100% / 3);
+    float: left;
+    padding-right: 15px;
+}
+.sec9-img img {
+    border: 1.5px solid #ebb94d;
+}
+.entrin {
+    display: inline-block;
+    font-size: 18px;
+    text-align: left;
+    padding-left: 15px;
+    margin-top: 15px;
+}
+.entrin p {
+    color: #777777;
+    font-style: italic;
+}
+.entrin p + p {
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+/*------- section-10 -------*/
+.study-contents p {
+    color: #fff;
+}
+.study-contents h2 {
+    color: #fff;
+}
+.study-contents {
+    padding: 40px 0;
+    background: url(imeges/classbg.jpg)no-repeat center / cover;
+}
+.sec10-top h2 {
+    margin: 20px 0 10px;
+}
+.sec10-top p {
+    font-weight: 600;
+}
+.sec10-main {
+    width: 810px;
+    margin: 0 auto;
+    padding: 40px 0;
+    overflow: hidden;
+}
+.task ul {
+    border: 2px solid #036ea9;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.task-titl {
+    background-color: #036ea9;
+    padding: 15px 0;
+    margin-bottom: 10px;
+}
+.task-titl .txtm {
+    font-weight: 600;
+    color: #fff;
+    margin: 0;
+}
+.task ul li {
+    font-weight: 600;
+    list-style: none;
+    padding: 10px 0; 
+}
+.task-titl li {
+    font-weight: 600;
+}
+.task ul li:not(.task ul li:last-of-type) {
+    border-bottom: 1px dotted #e5e5e5;
+}
+.task {
+    float: left;
+    width: calc(100% / 2);
+    padding: 0 15px;
+}
+
+/* ------- section-11 ------- */
+.section-11 {
+    padding: 40px 0;
+    background-color: #fff;
+}
+.section-11 h2 {
+    margin: 20px 0 10px;
+}
+.flow-img {
+    max-width: 1000px;
+    margin: 40px 0;
+}
+.flowbox {
+    overflow: hidden;
+    width: 1170px;
+    max-width: calc(100% - 40px);
+    background-color: #FDF5E0;
+    margin: 0 auto;
+    padding: 10px 35px;
+    border-radius: 10px;
+}
+.flow-left {
+    padding: 20px;
+    width: 200px;
+    float: left;
+}
+.flow-left h3 {
+    margin-top: 20px;
+}
+/* .flow-left img {
+    max-width: 100%;
+} */
+.flow-left br {
+    display: block;
+}
+.flow-right {
+    padding-top: 10px;
+}
+.flowbox p {
+    text-align: left;
+    font-weight: 600;
+}
+.preworks {
+    margin-top: 40px;
+}
+.later-flow {
+    overflow: hidden;
+    margin: 20px 0;
+}
+.later-flow p {
+    margin: 0;    
+}
+.flow-right .flow-ts {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.test p {
+    margin: 20px 0;
+}
+.connection img {
+    vertical-align: middle;
+}
+/*------- section-12 -------*/
+.section-12 {
+    background: url(imeges/bangkokbg.jpg) no-repeat center / cover;
+    padding: 80px;
+}
+.why-bangkok {
+    text-align: left;
+    margin-left: 34px;
+}
+.why-bangkok h2 {
+    font-size: 24px;
+    margin: 20px 0;
+    letter-spacing: 3px;
+}
+.why-bangkok h2, .why-bangkok p, .why-bangkok li {
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.6;
+}
+.why-bangkok p:first-of-type {
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.why-bangkok ul {
+    margin-bottom: 20px;
+}
+.why-bangkok li {
+    margin-bottom: 10px;
+    list-style: none;
+}
+.why-bangkok p:last-of-type {
+    font-size: 20px;
+}
+/*------- section-13 -------*/
+.specialsp {
+    display: none;
+}
+.section-13 {
+    background: #F7C23B;
+    padding: 60px 0 40px;
+}
+.section-13 > h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+.fa-gift:before {
+    font-size: 24px;
+    font-style: normal;
+    margin-right: -10px;
+}
+.section-13 span {
+    color: #fff;
+}
+.section-13 br {
+    display: none;
+}
+.section-13 p {
+    line-height: 22px;
+    font-weight: 600;
+}
+.participation-benefits {
+    margin-top: 45px;
+}
+.really-0-yen {
+    background: #f7c23b;
+    width: 45%;
+    margin: 0 auto;
+    transform: translatey(26px);
+}
+.really-0-yen h3 {
+    margin-bottom: 10px;
+}
+.further-benefits {
+    /* width: 1170px; */
+    padding: 50px 40px;
+    margin: 0 auto;
+    border: 2px solid #fff;
+}
+.benefits-enclose {
+    display: flex;
+    justify-content: center;
+}
+.benefits {
+    width: 370px;
+    padding: 0 10px;
+}
+.benefits div {
+    width: 250px;
+    height: 250px;
+    padding: 15px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.benefits h2 {
+    font-size: 24px;
+    font-weight: lighter;
+    color: #f7c23b;
+    margin-bottom: 10px;
+}
+.benefits p {
+    font-weight: 600;
+}
+/*------- sectiou-14 -------*/
+.sectiou-14 br {
+    display: none;
+}
+.sectiou-14 h2, .sectiou-14 p {
+    color: #fff;
+}
+.not-volunteer {
+    background: url(imeges/specialdetail.jpg) no-repeat center / cover;
+    padding: 35px 0;
+}
+.not-volunteer h2 {
+    padding: 15px;
+    margin: 0;
+}
+.not-volunteer p {
+    margin-bottom: 0;
+    font-weight: 600;
+    line-height: 1.6;
+}
+.not-volunteer .txtm {
+    margin-bottom: 25px;
+}
+.not-volunteer .braces {
+    margin: 15px 0 20px;
+    padding: 0;
+}
+.not-volunteer .braces::before {
+    border-top: 4px solid #fff;
+    border-left: 4px solid #fff;
+}
+.not-volunteer .braces::after {
+    border-bottom: 4px solid #fff;
+    border-right: 4px solid #fff;
+}
+/*------- sectiou-15 -------*/
+.section-15 {
+    overflow: hidden;
+    background-color: #fff;
+    padding: 40px 0;
+}
+.founder h2 {
+    margin: 20px 0 35px;
+}
+.founder p {
+    font-size: 20px;
+    font-weight: 600;
+}
+.message {
+    overflow: hidden;
+    width: 890px;
+    height: auto;
+    padding: 30px 0;
+    margin: 0 auto;
+}
+.message-img {
+    width: 25%;
+    float: left;
+    padding: 0 15px;
+}
+.message-txt {
+    width: 75%;
+    text-align: left;
+    padding: 0 15px;
+    float: left;
+    box-sizing: border-box;
+}
+.message-txt p, .message-txt ul li {
+    font-size: 14px;
+    line-height: 22px;
+    color: #333;
+}
+.message-txt ul {
+    padding: 30px 0;
+}
+.message-txt ul li {
+    list-style: none;
+}
+/*------- sectiou-16 -------*/
+.section-16 {
+    background-color: #EBB94D;
+    padding: 60px 20% 50px;
+}
+.section-16 input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 25px;
+    border: none;
+    border-radius: 5px;
+}
+.section-16 h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.fa-file-lines::before {
+    content: "\f15c";
+    font-weight: 300;
+    font-style: initial;
+    margin-right: -10px;
+}
+.section-16 p {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.submit {
+    color: #fff;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 1.5;
+    padding: 11px 40px;
+    background-color: #da6b64;
+    border-radius: 50px;
+    border: none;
+}
+.seimei1, .seimei2, .mail {
+    height: 55px;
+}
+textarea {
+    width: 99%;
+    height: 100px;
+    margin-bottom: 25px;
+    border: none;
+    border-radius: 5px;
+}
+input.submit {
+    border-radius: 30px;
+    margin-top: 15px;
+}
+/*------- questions -------*/
+.questions {
+    background-color: #fff;
+    padding: 40px 10%;
+}
+.questions h2 {
+    font-size: 28px;
+    margin: 20px 0 40px;
+}
+.questionslist {
+    margin: 20px;
+}
+.fa-envelope-open::before {
+    font-style: initial;
+    font-weight: 400;
+    margin-right: -10px;
+}
+.panel-titl {
+    position: relative;
+    text-align: left;
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+    padding: 16px;
+}
+.fa-circle-question::before {
+    content: "\f059";
+    color: #016ea9;
+    font-size: 18px;
+    font-style: initial;
+    margin-right: -6px;
+}
+.panel-text {
+    text-align: left;
+    font-weight: 700;
+    border: 1px solid #fafafa;
+    padding: 18px;
+    margin-bottom: 5px;
+    display: none;
+}
+.panel-text h4 {
+    position: absolute;
+}
+.panel-titl .open::after {
+    color: #e5e5e5;
+    top: 12px;
+    right: 10px;
+}
+.panel-titl .collapsed::after {
+    top: 16px;
+}
+.panel-titl a {
+    font-size: 20px;
+}
+/*--------- footer ---------*/
+footer {
+    text-align: center;
+}
+.foot-inner {
+    background-color: #ECECEC;   
+    padding: 40px 0 20px;
+}
+.foot-inner p {
+    font-size: 10px;
+}
+.foot-inner p:not(.foot-inner p:first-child) {
+    margin-bottom: 5px;
+}
+.foot-inner p a {
+    color: #337ab7;
+    text-decoration: none;
+}
+.foot-inner p a:hover {
+    color: #23527c;
+    text-decoration: underline;
+}
+.foot-inner ul {
+    overflow: hidden;
+    width: fit-content;
+    height: 60px;
+    margin: 0 auto;
+}
+.foot-inner ul li {
+    float: left;
+    list-style: none;
+    background-color: #1d9bf0;
+    padding-left: 10px;
+}
+.foot-inner ul li + li {
+    border-radius: 4px 0 0 4px;
+    line-height: 20px;
+    background-color: blue;
+}
+.foot-inner ul li:last-child {
+    margin-left: 4px;
+}
+.foot-inner ul li a {
+    color: #fff;
+    font-size: 12px;
+}
+.tweet {
+    border-radius: 10px 0 0 10px;
+    line-height: 20px;
+}
+.fa-twitter:before {
+    color: #fff;
+    font-style: initial;
+    /* padding-left: 10px; */
+    margin-right: -3px;
+}
+.fa-thumbs-up:before {
+    color: #fff;
+    font-style: initial;
+    /* padding-left: 10px; */
+    margin-right: -3px;
+}
+
+@media screen and (min-width: 768px) {
+    
+}
